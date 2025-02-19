@@ -32,6 +32,4 @@ Este projeto está sob a licença Apache License 2.0. Para mais informações, c
 Sinta-se à vontade para modificar e distribuir este código como desejar.
 
 # Contato
-Em caso de dúvidas ou sugestões, entre em contato com o autor.
-
-Observação: Este README foi gerado automaticamente e pode conter informações desatualizadas ou incorretas. Consulte o código fonte para obter informações mais precisas sobre o projeto.
+Em caso de dúvidas ou sugestões, entre em contato, minhas redes estão listadas no perfil.
