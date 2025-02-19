@@ -24,7 +24,7 @@ Este programa foi desenvolvido como um exemplo simples de calculadora de handica
 O código fonte está comentado para facilitar a compreensão do funcionamento do programa.
 
 # Autor
-Nicholas Monteiro - /user/@NickdDevD
+Nicholas Monteiro - @NickdDevD
 
 # Licença
 Este projeto está sob a licença Apache License 2.0. Para mais informações, consulte o arquivo LICENSE.
