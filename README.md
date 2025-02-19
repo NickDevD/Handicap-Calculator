@@ -18,7 +18,8 @@ O resultado será exibido na tela.
 Java
 Swing (para a interface gráfica)
 NetBeans (ambiente de desenvolvimento)
-Observações
+
+# Observações
 Este programa foi desenvolvido como um exemplo simples de calculadora de handicap e pode ser aprimorado com funcionalidades adicionais, como a inclusão de mais opções de cálculo e a exibição de informações detalhadas sobre a partida.
 O código fonte está comentado para facilitar a compreensão do funcionamento do programa.
 
@@ -26,7 +27,7 @@ O código fonte está comentado para facilitar a compreensão do funcionamento d
 Nicholas
 
 # Licença
-Este projeto está sob a licença MIT. Para mais informações, consulte o arquivo LICENSE.
+Este projeto está sob a licença Apache License 2.0. Para mais informações, consulte o arquivo LICENSE.
 
 Sinta-se à vontade para modificar e distribuir este código como desejar.
 
