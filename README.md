@@ -4,7 +4,9 @@ Este é um projeto Java que implementa uma calculadora de handicap para usuário
 
 ## Demonstração
 
-![Demonstração da Calculadora Handicap AG](assets/display)
+Interface gráfica:
+
+![](assets/display.png)
 
 ## Funcionalidades
 
