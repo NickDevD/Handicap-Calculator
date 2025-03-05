@@ -38,20 +38,17 @@
                       <Component id="btFora" min="-2" pref="114" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="84" max="-2" attributes="0"/>
-                              <Component id="jLabel6" min="-2" pref="152" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="101" max="-2" attributes="0"/>
-                              <Component id="lbResultado" min="-2" pref="106" max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
+                      <EmptySpace min="-2" pref="84" max="-2" attributes="0"/>
+                      <Component id="jLabel6" min="-2" pref="152" max="-2" attributes="0"/>
                       <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="108" max="-2" attributes="0"/>
+              <Component id="lbResultado" min="-2" pref="106" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -122,10 +119,12 @@
                       <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="txtCasa" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
-                      <Component id="txtFora" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
                       <Component id="jLabel4" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtCasa" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                          <Component id="txtFora" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
                   <EmptySpace pref="24" max="32767" attributes="0"/>
                   <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
@@ -200,7 +199,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Segoe UI" size="24" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="  Calculadora Handicap AG "/>
+        <Property name="text" type="java.lang.String" value="     Calculadora Handicap "/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lbResultado">
@@ -241,7 +240,8 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Segoe UI" size="12" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Desenvolvido por Nicholas."/>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Nicholas - 2025"/>
       </Properties>
     </Component>
   </SubComponents>
