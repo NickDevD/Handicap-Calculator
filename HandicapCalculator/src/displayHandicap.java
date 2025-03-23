@@ -1,8 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
-
 /**
  *
  * @author NICHOLAS
@@ -155,12 +150,11 @@ public class displayHandicap extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addGap(84, 84, 84)
                         .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE)))
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(lbResultado, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                 .addContainerGap())
-            .addGroup(layout.createSequentialGroup()
-                .addGap(108, 108, 108)
-                .addComponent(lbResultado, javax.swing.GroupLayout.PREFERRED_SIZE, 106, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -185,34 +179,55 @@ public class displayHandicap extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btCasaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btCasaActionPerformed
-        // Ação realizar ao clicar no botão "Casa"
+        try{
+           if(txtCasa.getText().isEmpty() || txtFora.getText().isEmpty() || txtHandicap.getText().isEmpty()){
+              lbResultado.setText("Preencha todos os campos!");
+              return;
+            }
+        // Ação realizada ao clicar no botão "Casa"
         double casa = Double.parseDouble(this.txtCasa.getText());
         double fora = Double.parseDouble(this.txtFora.getText());
         double handicap = Double.parseDouble(this.txtHandicap.getText());
         
-        casa += handicap;
         
+        casa += handicap;      
         if(casa > fora){
-            lbResultado.setText("VENCE");
-        }else {
-            lbResultado.setText("PERDE");
+            lbResultado.setText("CASA VENCE");
+        }else if(casa <= fora) {
+            lbResultado.setText("CASA PERDE");
         }
         
+      }catch(NumberFormatException e){
+          lbResultado.setText("Use números");
+      }catch(Exception e){
+           lbResultado.setText("Ocorreu um erro: " + e.getMessage());
+       }  
     }//GEN-LAST:event_btCasaActionPerformed
 
     private void btForaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btForaActionPerformed
+        try{
+           if(txtCasa.getText().isEmpty() || txtFora.getText().isEmpty() || txtHandicap.getText().isEmpty()){
+              lbResultado.setText("Preencha todos os campos!");
+              return;
+            }
+
         // Ação realizar ao clicar no botão "Fora"
         double casa = Double.parseDouble(this.txtCasa.getText());
         double fora = Double.parseDouble(this.txtFora.getText());
         double handicap = Double.parseDouble(this.txtHandicap.getText());
         
         fora += handicap;
-        
         if(fora > casa){
-            lbResultado.setText("VENCE");
-        }else {
-            lbResultado.setText("PERDE");
+            lbResultado.setText("FORA VENCE");
+        }else if(fora <= casa) {
+            lbResultado.setText("FORA PERDE");
         }
+        
+      }catch(NumberFormatException e){
+          lbResultado.setText("Use números");
+      }catch(Exception e){
+           lbResultado.setText("Ocorreu um erro: " + e.getMessage());
+       }  
     }//GEN-LAST:event_btForaActionPerformed
 
     /**
