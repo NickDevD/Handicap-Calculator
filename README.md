@@ -12,7 +12,7 @@ Interface gráfica:
 
 * Cálculo de handicap: O programa recebe os valores de "Casa", "Fora" e "Handicap" e realiza o cálculo para determinar o resultado da partida.
 * Interface gráfica: O programa possui uma interface gráfica simples e intuitiva, que facilita a interação do usuário com a calculadora.
-* Resultado: O programa exibe o resultado da partida, informando se o jogador "Venceu" ou "Perdeu".
+* Resultado: O programa exibe o resultado da partida, informando se o apostador "Venceu" ou "Perdeu".
 
 ## 💻 Como usar
 
