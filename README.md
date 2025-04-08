@@ -25,7 +25,7 @@ Interface gráfica:
 
 ## 🛠 Tecnologias utilizadas
 
-* Java
+* Java <img width="30" height = "30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" />
 * Swing (para a interface gráfica)
 * NetBeans (ambiente de desenvolvimento)
 
