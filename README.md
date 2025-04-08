@@ -1,6 +1,6 @@
 # Calculadora Handicap 
 
-Este é um projeto Java que implementa uma calculadora de handicap para usuários que possuem dúvidas de como calcular o resultado final.
+Este é um projeto Java que implementa uma calculadora de handicap para usuários que possuem dúvidas de como calcular o resultado final em apostas que envolvem o mercado de handicaps, seja no modelo europeu quanto asiático.
 
 ## 📱 Demonstração
 
